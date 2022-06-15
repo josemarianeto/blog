@@ -1,22 +1,22 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
+  title: 'Melo Blog',
+  author: 'José Maria Santana de Melo Neto',
+  headerTitle: 'Neto Melo',
   description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  language: 'pt-BR',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://netomelo.com.br',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
+  email: 'netomelosantana@gmail.com',
+  github: 'https://github.com/josemarianeto',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  youtube: 'https://www.youtube.com/channel/UC4IKO6I9h2nZl5FIUK8htyA',
+  linkedin: 'https://www.linkedin.com/in/jos%C3%A9-maria-santana-de-melo-neto-186118149/',
+  locale: 'pt-BR',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
