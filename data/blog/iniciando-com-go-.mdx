@@ -1,0 +1,65 @@
+---
+title: Iniciando com Go
+date: '2022-06-15'
+tags: ['Go', 'Iniciante']
+draft: false
+summary: Da Instalação ao primeiro hello world.
+images: []
+layout: PostLayout
+canonicalUrl:
+---
+
+## Iniciando
+
+- Instalação
+  {' '}
+  <p>
+    Primeiro passo é ir ao site oficial https://go.dev/doc/install , selecionar e seguir o passo a
+    passo de acordo com seu sistema operacional. o importante é que independete do sistema é que no
+    final você consiga rodar o comando go version em seu respectivo terminal e receber a versão
+    instalada no retorno.{' '}
+  </p>
+  <img alt="computer comand line with go version" src="/static/postIniciandocomGO/image2.png"></img>
+
+## Iniciando um Modulo
+
+- Execute o Comando no seu terminal:
+
+  ```
+  go mod init helloworld
+  ```
+
+  {' '}
+  <p>
+    Abra seu Editor de Texto de preferencia no meu caso sera o Vs Code e crie uma arquivo chamado
+    main.go.
+    <br />
+    Então crie uma função chamada main.
+    <br />
+    Ela deve ficar como o codigo abaixo.
+  </p>
+
+  ```go:main.go
+  package main
+
+  import "fmt"
+
+  func main() {
+    fmt.Println("Hello World")
+  }
+  ```
+
+- Explicação
+  - <strong>package main </strong> é o pacote no qual o Go vai compilar junto com suas dependencias
+  - <strong>import "fmt" </strong> é aonde o go vai importar as funções para executar o print no seu
+    terminal.
+
+## Resultado final:
+
+    <img alt="computer comand line with go version" src="/static/postIniciandocomGO/gofinaly.png"></img>
+
+
+
+
+
+
