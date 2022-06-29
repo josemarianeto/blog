@@ -6,7 +6,7 @@ const siteMetadata = {
   language: 'pt-BR',
   theme: 'system', // system, dark or light
   siteUrl: 'https://netomelo.com.br',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/josemarianeto',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
